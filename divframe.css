@@ -1,0 +1,18 @@
+.background {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    background:
+    url("./ramka-1.png") no-repeat top left,
+    url("./ramka-2.png") no-repeat top right,
+    url("./ramka-3.png") no-repeat bottom right,
+    url("./ramka-4.png") no-repeat bottom left,
+    url("./ramka-5.png") repeat-y left center,
+    url("./ramka-6.png") repeat-x top center,
+    url("./ramka-7.png") repeat-y right center,
+    url("./ramka-8.png") repeat-x bottom center;
+}
+
+.background p {
+    padding: 20px;
+}
