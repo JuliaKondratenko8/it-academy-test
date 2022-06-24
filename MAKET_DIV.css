@@ -1,0 +1,67 @@
+.layout {
+    width: 700px;
+}
+
+.container {
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header {
+    background-color: lightblue;
+    min-height: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: rgb(222, 222, 125);
+    float: left;
+    height: 350px;
+    margin-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    }
+
+.content {
+    background-color: white;
+    height: 350px;
+    background-image: url('./6193_6_psd_1000x1000.jpg');
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 50px;
+    padding: 10px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.pic {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+
+.footer {
+    background-color: lightblue;
+    text-align: center;
+    min-height: 50px;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.block {
+    color: blue;
+    font-size: 12px;
+}
+li {
+    padding-right: 10px;
+    width: 100px;
+}
