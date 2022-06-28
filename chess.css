@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+tr:nth-child(odd) td:nth-child(even) 
+{
+    background-color: black;
+}
+tr:nth-child(even) td:nth-child(odd) 
+{
+    background-color: black;
+}
+
+
+.stars {
+    display: inline-block;
+    position: left;
+    padding-bottom: 20px;
+}
+
+.star {
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    background-image: url('./star0.png');
+}
+
+.stars:hover .star {
+    background-image: url('./star1.png');
+}
+
+.star:hover~.star {
+    background-image: url('./star0.png');
+}
